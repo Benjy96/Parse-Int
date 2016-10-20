@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 /**
- * Created by dickeyb on 20/10/2016.
  * Basic process of how a string to int conversion works
  */
 public class parseInt {

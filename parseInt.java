@@ -8,7 +8,7 @@ import java.util.Scanner;
  * The number characters 0 -> 9 are represented by 48 -> 53 in decimal (ASCII table). 
  * Therefore we can subtract 48 to print the decimal value of the number.
  * e.g., Character(5) = 53 in ASCII Decimal. Subtract: 53 - 48 = 5
- * This number 5 is now able to be stored in an integer, and is the correct value.
+ * This number 5 is now able to be stored as an integer, and is the correct value.
  */
 public class parseInt {
     public static void main(String[] args){

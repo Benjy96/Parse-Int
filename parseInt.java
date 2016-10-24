@@ -34,7 +34,7 @@ public class parseInt {
             //Numbers are represented from 48 to 57 in ASCII ( 0 -> 9 )
             if (num > 47 && num < 58) {
                 //ASCII representation of 0 to 9 "starts" at 48, so subtract it
-                //e.g. ASCII(48) == 0. Therefore if value returned is 48, you subtract 48 to get 0.
+                //e.g. ASCII(48) == 0. Therefore if value returned is 48, you subtract 48 to get 0. And so on.
                 num -= 48;
             }
 

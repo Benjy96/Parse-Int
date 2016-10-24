@@ -32,9 +32,8 @@ public class parseInt {
             num = (int)s.charAt(counter);
 
             //Numbers are represented from 48 to 57 in ASCII ( 0 -> 9 )
-            //ASCII representation of 0 to 9 "starts" at 48, so subtract it
             if (num > 47 && num < 58) {
-                //ASCII goes to 48 in decimal before it is zero
+                //ASCII representation of 0 to 9 "starts" at 48, so subtract it
                 num -= 48;
             }
 
